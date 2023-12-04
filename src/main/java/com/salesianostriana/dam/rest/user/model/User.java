@@ -41,6 +41,8 @@ public class User implements UserDetails {
     @Column(unique = true, updatable = false)
     private String username;
 
+    private String email;
+
     private String password;
 
     private String avatar;
